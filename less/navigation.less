@@ -1,0 +1,25 @@
+header{
+    background: @darkGreen;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .cameraLogoLeft{
+        padding-left: 5%;
+    }
+    .headerAndNav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        nav{
+            justify-content: space-between;
+            @media @phone{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+    .noteBookLogoRight{
+        padding-right: 5%;
+    }
+}

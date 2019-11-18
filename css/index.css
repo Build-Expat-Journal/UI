@@ -1,0 +1,177 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+header {
+  background: #264D59;
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .cameraLogoLeft {
+  padding-left: 5%;
+}
+header .headerAndNav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+header .headerAndNav nav {
+  justify-content: space-between;
+}
+@media (max-width: 500px) {
+  header .headerAndNav nav {
+    display: flex;
+    flex-direction: column;
+  }
+}
+header .noteBookLogoRight {
+  padding-right: 5%;
+}
+footer {
+  background: #264D59;
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .noteBookLogoLeft {
+  padding-left: 5%;
+}
+footer .cameraLogoRight {
+  padding-right: 5%;
+}
+.content {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+}
+.content .placeHolder1 {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 2%;
+}
+.content .placeHolder1 h2 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+.content .placeHolder1 p {
+  text-align: center;
+}
+.content .signUp {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content .signUp h2 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+.content .signUp p {
+  text-align: center;
+}
+.content .signUp button {
+  border: 1px solid black;
+}
+.content .placeHolder2 {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 2%;
+}
+.content .placeHolder2 h2 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+.content .placeHolder2 p {
+  text-align: center;
+}

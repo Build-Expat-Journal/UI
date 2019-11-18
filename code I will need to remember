@@ -1,0 +1,17 @@
+ <button id="button1" onclick="window.location.href='https:whatever.com/';">Sign Up</button>
+
+This an example of how to get the button to be clicked and have it send you to another page.
+
+
+
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url(../images/vacation.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+
+    This has the way that I got my Background Image to take the entire page.  This can be made better though
+    
