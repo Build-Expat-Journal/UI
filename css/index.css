@@ -87,7 +87,7 @@ video {
   vertical-align: baseline;
 }
 header {
-  background: #264D59;
+  background: #286F66;
   height: 15vh;
   display: flex;
   justify-content: space-between;
@@ -122,13 +122,15 @@ header .headerAndNav nav {
 }
 header .headerAndNav nav #homeNav {
   padding-left: 10%;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #F5F5F5;
+  width: 15%;
 }
 header .headerAndNav nav #aboutNav {
   padding-right: 10%;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #F5F5F5;
+  width: 15%;
 }
 header .noteBookLogoRight {
   padding-right: 5%;
@@ -194,4 +196,295 @@ footer .cameraLogoRight {
 }
 .content .placeHolder2 p {
   text-align: center;
+}
+h1 {
+  font-size: 3rem;
+  color: #F5F5F5;
+  padding-left: 5%;
+  width: 25%;
+}
+@media (max-width: 500px) {
+  h1 {
+    padding-left: 0%;
+  }
+}
+.belowHeader {
+  background: #264D59;
+}
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 5%;
+  justify-content: center;
+  background-image: url(../images/aboutBckg2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+}
+.intro h2 {
+  font-size: 3rem;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+@media (max-width: 500px) {
+  .intro h2 {
+    padding-top: 5%;
+  }
+}
+.intro p {
+  padding-bottom: 5%;
+  font-size: 1.4rem;
+}
+@media (max-width: 500px) {
+  .intro p {
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align: center;
+  }
+}
+.intro img {
+  height: 33px;
+  padding-top: 25px;
+}
+.about-content .firstRow {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10%;
+  padding-top: 5%;
+}
+@media (max-width: 500px) {
+  .about-content .firstRow {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.about-content .firstRow div {
+  background-color: #264D59;
+  width: 300px;
+}
+.about-content .firstRow .ami {
+  border: 10px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3%;
+  margin-left: 5%;
+}
+@media (max-width: 500px) {
+  .about-content .firstRow .ami {
+    margin-left: 0%;
+    margin-bottom: 10%;
+  }
+}
+.about-content .firstRow .ami h3 {
+  font-size: 2.5rem;
+  padding-bottom: 5%;
+}
+.about-content .firstRow .ami img {
+  height: 100px;
+  padding-bottom: 5%;
+}
+.about-content .firstRow .ami p {
+  padding-bottom: 8%;
+  font-size: 1.4rem;
+}
+.about-content .firstRow .lorenzo {
+  border: 10px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3%;
+  margin-right: 5%;
+}
+@media (max-width: 500px) {
+  .about-content .firstRow .lorenzo {
+    margin: 0%;
+  }
+}
+.about-content .firstRow .lorenzo h3 {
+  font-size: 2.5rem;
+  padding-bottom: 5%;
+}
+.about-content .firstRow .lorenzo img {
+  height: 100px;
+  padding-bottom: 5%;
+}
+.about-content .firstRow .lorenzo p {
+  padding-bottom: 8%;
+  font-size: 1.4rem;
+}
+.about-content .secondRow {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10%;
+}
+@media (max-width: 500px) {
+  .about-content .secondRow {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.about-content .secondRow div {
+  width: 300px;
+  background-color: #264D59;
+}
+.about-content .secondRow .damon {
+  border: 10px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3%;
+  margin-left: 5%;
+}
+@media (max-width: 500px) {
+  .about-content .secondRow .damon {
+    margin-left: 0%;
+    margin-bottom: 10%;
+  }
+}
+.about-content .secondRow .damon h3 {
+  font-size: 2.5rem;
+  padding-bottom: 5%;
+}
+.about-content .secondRow .damon img {
+  height: 100px;
+  padding-bottom: 5%;
+}
+.about-content .secondRow .damon p {
+  padding-bottom: 8%;
+  font-size: 1.4rem;
+}
+.about-content .secondRow .ana {
+  border: 10px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3%;
+  margin-right: 5%;
+}
+@media (max-width: 500px) {
+  .about-content .secondRow .ana {
+    margin: 0%;
+  }
+}
+.about-content .secondRow .ana h3 {
+  font-size: 2.5rem;
+  padding-bottom: 5%;
+}
+.about-content .secondRow .ana img {
+  height: 100px;
+  padding-bottom: 5%;
+}
+.about-content .secondRow .ana p {
+  padding-bottom: 8%;
+  font-size: 1.4rem;
+}
+.about-content .thirdRow {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10%;
+}
+@media (max-width: 500px) {
+  .about-content .thirdRow {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.about-content .thirdRow div {
+  width: 300px;
+  background-color: #264D59;
+}
+.about-content .thirdRow .sandra {
+  border: 10px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3%;
+  margin-left: 5%;
+}
+@media (max-width: 500px) {
+  .about-content .thirdRow .sandra {
+    margin-left: 0%;
+    margin-bottom: 10%;
+  }
+}
+.about-content .thirdRow .sandra h3 {
+  font-size: 2.5rem;
+  padding-bottom: 5%;
+}
+.about-content .thirdRow .sandra img {
+  height: 100px;
+  padding-bottom: 5%;
+}
+.about-content .thirdRow .sandra p {
+  padding-bottom: 8%;
+  font-size: 1.4rem;
+}
+.about-content .thirdRow .caitlyn {
+  border: 10px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3%;
+  margin-right: 5%;
+}
+@media (max-width: 500px) {
+  .about-content .thirdRow .caitlyn {
+    margin: 0%;
+  }
+}
+.about-content .thirdRow .caitlyn h3 {
+  font-size: 2.5rem;
+  padding-bottom: 5%;
+}
+.about-content .thirdRow .caitlyn img {
+  height: 100px;
+  padding-bottom: 5%;
+}
+.about-content .thirdRow .caitlyn p {
+  padding-bottom: 8%;
+  font-size: 1.4rem;
+}
+.about-content .fourthRow {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10%;
+}
+@media (max-width: 500px) {
+  .about-content .fourthRow {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.about-content .fourthRow div {
+  width: 300px;
+  background-color: #264D59;
+}
+.about-content .fourthRow .jennie {
+  border: 10px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3%;
+  margin-left: 5%;
+}
+@media (max-width: 500px) {
+  .about-content .fourthRow .jennie {
+    margin-left: 0%;
+    margin-bottom: 10%;
+  }
+}
+.about-content .fourthRow .jennie h3 {
+  font-size: 2.5rem;
+  padding-bottom: 5%;
+}
+.about-content .fourthRow .jennie img {
+  height: 100px;
+  width: 100px;
+  padding-bottom: 5%;
+}
+.about-content .fourthRow .jennie p {
+  padding-bottom: 8%;
+  font-size: 1.4rem;
 }

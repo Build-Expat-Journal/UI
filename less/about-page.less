@@ -1,0 +1,301 @@
+h1{
+    font-size: 3rem;
+    color: @chalk;
+    padding-left: 5%;
+    width: 25%;
+    @media @phone{
+        padding-left: 0%;
+    }
+}
+
+.belowHeader{
+    background: @darkGreen;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5%;
+    justify-content: center;
+    background-image: url(../images/aboutBckg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    
+    
+   h2{
+       font-size: 3rem;
+       padding-top: 3%;
+       padding-bottom: 3%;
+       @media @phone{
+           padding-top: 5%;
+       }
+   }
+   p{
+       padding-bottom: 5%;
+       font-size: 1.4rem;
+       @media @phone{
+           margin-left: 3%;
+           margin-right: 3%;
+           text-align: center;
+       }
+   }
+   img{
+       height: 33px;
+       padding-top: 25px;
+   }
+}
+
+
+.about-content{
+    .firstRow{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 10%;
+        padding-top: 5%;
+        
+        @media @phone{
+            flex-direction: column;
+            align-items: center;
+        }
+        div{
+            background-color: @darkGreen;
+            width: 300px;
+            
+        }
+        .ami{
+            border: 10px solid black;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 3%;
+            margin-left: 5%;
+            @media @phone{
+                margin-left: 0%;
+                margin-bottom: 10%;
+            }
+            h3{
+                font-size: 2.5rem;
+                padding-bottom: 5%;
+            }
+            img{
+                height: 100px;
+                padding-bottom: 5%;
+            }
+            p{
+                padding-bottom: 8%;
+                font-size: 1.4rem;
+            }
+
+        }
+        .lorenzo{
+            border: 10px solid black;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 3%;
+            margin-right: 5%;
+            @media @phone{
+                margin: 0%;
+            }
+            h3{
+                font-size: 2.5rem;
+                padding-bottom: 5%;
+            }
+            img{
+                height: 100px;
+                padding-bottom: 5%;
+            }
+            p{
+                padding-bottom: 8%;
+                font-size: 1.4rem;
+            }
+        }
+    }
+    .secondRow{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 10%;
+        @media @phone{
+            flex-direction: column;
+            align-items: center;
+        }
+        div{
+            width: 300px;
+            background-color: @darkGreen;
+        }
+        .damon{
+            .leftPerson();
+            @media @phone{
+                margin-left: 0%;
+                margin-bottom: 10%;
+            }
+            h3{
+                font-size: 2.5rem;
+                padding-bottom: 5%;
+            }
+            img{
+                height: 100px;
+                padding-bottom: 5%;
+            }
+            p{
+                padding-bottom: 8%;
+                font-size: 1.4rem;
+            }
+        }
+        .ana{
+            .rightPerson();
+            @media @phone{
+                margin: 0%;
+            }
+            h3{
+                font-size: 2.5rem;
+                padding-bottom: 5%;
+            }
+            img{
+                height: 100px;
+                padding-bottom: 5%;
+            }
+            p{
+                padding-bottom: 8%;
+                font-size: 1.4rem;
+            }
+        }
+    }
+    .thirdRow{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 10%;
+        @media @phone{
+            flex-direction: column;
+            align-items: center;
+        }
+        div{
+            width: 300px;
+            background-color: @darkGreen;
+        }
+        .sandra{
+            .leftPerson();
+            @media @phone{
+                margin-left: 0%;
+                margin-bottom: 10%;
+            }
+            h3{
+                font-size: 2.5rem;
+                padding-bottom: 5%;
+            }
+            img{
+                height: 100px;
+                padding-bottom: 5%;
+            }
+            p{
+                padding-bottom: 8%;
+                font-size: 1.4rem;
+            }
+        }
+        .caitlyn{
+            .rightPerson();
+            @media @phone{
+                margin: 0%;
+            }
+            h3{
+                font-size: 2.5rem;
+                padding-bottom: 5%;
+            }
+            img{
+                height: 100px;
+                padding-bottom: 5%;
+            }
+            p{
+                padding-bottom: 8%;
+                font-size: 1.4rem;
+            }
+
+        }
+    }
+    .fourthRow{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 10%;
+        @media @phone{
+            flex-direction: column;
+            align-items: center;
+        }
+        div{
+            width: 300px;
+            background-color: @darkGreen;
+        }
+        .jennie{
+            .leftPerson();
+            @media @phone{
+                margin-left: 0%;
+                margin-bottom: 10%;
+            }
+            h3{
+                font-size: 2.5rem;
+                padding-bottom: 5%;
+            }
+            img{
+                height: 100px;
+                width: 100px;
+                padding-bottom: 5%;
+            }
+            p{
+                padding-bottom: 8%;
+                font-size: 1.4rem;
+            }
+        }
+        // .nabia{
+        //     .rightPerson();
+        //     @media @phone{
+        //         margin: 0%;
+        //     }
+        //     h3{
+        //         font-size: 2.5rem;
+        //         padding-bottom: 5%;
+        //     }
+        //     img{
+        //         height: 100px;
+        //         padding-bottom: 5%;
+        //     }
+        //     p{
+        //         padding-bottom: 8%;
+        //         font-size: 1.4rem;
+        //     }
+        // }
+    }
+    // .fifthRow{
+    //     display: flex;
+    //     justify-content: space-between;
+    //     padding-bottom: 10%;
+    //     @media @phone{
+    //         flex-direction: column;
+    //         align-items: center;
+    //     }
+    //     div{
+    //         width: 300px;
+    //         background-color: @bgColor;
+    //     }
+    //     // .kenneth{
+    //     //     .leftPerson();
+    //     //     @media @phone{
+    //     //         margin-left: 0%;
+    //     //         margin-bottom: 10%;
+    //     //     }
+    //     //     h3{
+    //     //         font-size: 2.5rem;
+    //     //         padding-bottom: 5%;
+    //     //     }
+    //     //     img{
+    //     //         height: 100px;
+    //     //         width: 100px;
+    //     //         padding-bottom: 5%;
+    //     //     }
+    //     //     p{
+    //     //         padding-bottom: 8%;
+    //     //         font-size: 1.4rem;
+    //     //     }
+    //     // }
+    // }
+}
