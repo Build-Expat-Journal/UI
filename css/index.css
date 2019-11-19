@@ -5,6 +5,9 @@
   font-display: swap;
   src: local('Sue Ellen Francisco '), local('SueEllenFrancisco'), url(https://fonts.gstatic.com/s/sueellenfrancisco/v10/wXK3E20CsoJ9j1DDkjHcQ5ZL8xRaxru9no1P3g.ttf) format('truetype');
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   box-sizing: border-box;
   margin: 0;
@@ -16,11 +19,11 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: fixed;
   height: 10vh;
 }
 header .logo {
-  margin: 10%;
+  margin-top: 5%;
+  margin-left: 5%;
 }
 header .logo img {
   width: 30%;
@@ -34,10 +37,10 @@ header nav {
 header nav a {
   text-decoration: none;
   color: white;
-  font-size: 1.3em;
+  font-size: 1.5em;
   padding: 1%;
   margin-right: 7%;
-  margin-top: 1%;
+  margin-top: 5%;
   font-family: 'Roboto Mono', monospace;
 }
 .bg {
@@ -71,40 +74,86 @@ header nav a {
   margin-left: 35%;
 }
 .bg main .btns button {
-  background-color: #4CAF50;
-  /* Green */
-  border: none;
+  background-color: #286F66;
+  border: 2px solid white;
+  width: 60%;
+  border-radius: 5px 20px 5px;
   color: white;
-  padding: 15px 32px;
+  padding: 15px 40px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 25px;
   margin: 4px 2px;
   cursor: pointer;
 }
-#about {
+.bg2 {
   background: url(../images/bg2.png);
-  height: 95vh;
+  height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
-  margin: 0;
+  padding: 0;
+}
+.bg2 h1 {
+  margin: 5%;
+  text-align: center;
+  padding: 0;
+  color: white;
+  font-family: 'Sue Ellen Francisco', cursive;
+  font-size: 100px;
+  font-weight: lighter;
+  line-height: 0.1;
+}
+.bg2 .card {
+  width: 12%;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  margin-left: 2%;
+  padding: 1%;
+}
+.bg2 .card img {
+  width: 100%;
+  height: 22vh;
+  background-size: contain;
+}
+#about {
+  background: url(../images/bg2.png);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0;
 }
 #about .first {
   padding: 5% 0 0 5%;
+  margin-bottom: 142px;
 }
 #about .first h2 {
   margin: 0;
   padding: 0;
   color: white;
-  font-size: 70px;
+  font-size: 75px;
   font-weight: lighter;
   text-align: center;
   font-family: 'Sue Ellen Francisco', cursive;
+  width: 100%;
 }
 #about .first p {
   font-family: 'Roboto Mono', monospace;
   color: white;
-  font-size: 20px;
+  font-size: 25px;
+  text-align: center;
   width: 50%;
+  margin-left: 25%;
+  margin-top: 5%;
+}
+#about footer {
+  height: 5vh;
+  background-color: #3C515D;
+  margin-top: 0;
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  font-size: 20px;
+  vertical-align: bottom;
 }
