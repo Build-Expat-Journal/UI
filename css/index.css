@@ -100,19 +100,20 @@ header .headerAndNav {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 100%;
+  width: 45%;
 }
 header .headerAndNav h1 {
   font-size: 3rem;
   color: #F5F5F5;
   text-align: center;
+  width: 100%;
+  padding: 0px;
 }
 header .headerAndNav nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: #F5F5F5;
-  width: 100%;
 }
 @media (max-width: 500px) {
   header .headerAndNav nav {
@@ -121,13 +122,11 @@ header .headerAndNav nav {
   }
 }
 header .headerAndNav nav #homeNav {
-  padding-left: 10%;
   font-size: 1.5rem;
   color: #F5F5F5;
   width: 15%;
 }
 header .headerAndNav nav #aboutNav {
-  padding-right: 10%;
   font-size: 1.5rem;
   color: #F5F5F5;
   width: 15%;
