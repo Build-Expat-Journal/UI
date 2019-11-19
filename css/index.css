@@ -87,72 +87,52 @@ video {
   vertical-align: baseline;
 }
 header {
-  background: #286F66;
-  height: 15vh;
+  height: 10vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #264D59;
 }
-header .cameraLogoLeft {
-  padding-left: 5%;
-}
-header .headerAndNav {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 45%;
-}
-header .headerAndNav h1 {
+header h1 {
   font-size: 3rem;
   color: #F5F5F5;
-  text-align: center;
-  width: 100%;
-  padding: 0px;
+  padding-left: 5%;
+  width: 50%;
 }
-header .headerAndNav nav {
+header nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #F5F5F5;
+  color: #264D59;
+  width: 40%;
+  padding-right: 5%;
 }
 @media (max-width: 500px) {
-  header .headerAndNav nav {
+  header nav {
     display: flex;
     flex-direction: column;
   }
 }
-header .headerAndNav nav #homeNav {
+header nav #homeNav {
   font-size: 1.5rem;
   color: #F5F5F5;
-  width: 15%;
+  width: 25%;
 }
-header .headerAndNav nav #aboutNav {
+header nav #aboutNav {
   font-size: 1.5rem;
   color: #F5F5F5;
-  width: 15%;
-}
-header .noteBookLogoRight {
-  padding-right: 5%;
-}
-footer {
-  background: #264D59;
-  height: 15vh;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-footer .noteBookLogoLeft {
-  padding-left: 5%;
-}
-footer .cameraLogoRight {
-  padding-right: 5%;
+  width: 25%;
 }
 .content {
-  height: 70vh;
+  height: 90vh;
+  background-image: url(../photos/campfire.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
 }
 .content .placeHolder1 {
+  margin-top: 15%;
   width: 30%;
   display: flex;
   flex-direction: column;
@@ -162,11 +142,15 @@ footer .cameraLogoRight {
 .content .placeHolder1 h2 {
   font-size: 2.5rem;
   text-align: center;
+  color: #F5F5F5;
+  padding-bottom: 4%;
 }
 .content .placeHolder1 p {
   text-align: center;
+  color: #F5F5F5;
 }
 .content .signUp {
+  margin-top: 5%;
   width: 30%;
   display: flex;
   flex-direction: column;
@@ -175,14 +159,18 @@ footer .cameraLogoRight {
 .content .signUp h2 {
   font-size: 2.5rem;
   text-align: center;
+  color: #F5F5F5;
+  padding-bottom: 4%;
 }
 .content .signUp p {
   text-align: center;
+  color: #F5F5F5;
 }
 .content .signUp button {
   border: 1px solid black;
 }
 .content .placeHolder2 {
+  margin-top: 15%;
   width: 30%;
   display: flex;
   flex-direction: column;
@@ -192,25 +180,40 @@ footer .cameraLogoRight {
 .content .placeHolder2 h2 {
   font-size: 2.5rem;
   text-align: center;
+  color: #F5F5F5;
+  padding-bottom: 4%;
 }
 .content .placeHolder2 p {
   text-align: center;
+  color: #F5F5F5;
 }
-h1 {
+.aboutHeader {
+  display: flex;
+  align-items: center;
+  background: #286F66;
+}
+.aboutHeader h1 {
   font-size: 3rem;
   color: #F5F5F5;
   padding-left: 5%;
-  width: 25%;
+  width: 50%;
 }
 @media (max-width: 500px) {
-  h1 {
+  .aboutHeader h1 {
     padding-left: 0%;
   }
+}
+.aboutHeader nav {
+  width: 30%;
+}
+.aboutHeader nav a {
+  color: #F5F5F5;
+  font-size: 1.4rem;
 }
 .belowHeader {
   background: #264D59;
 }
-.intro {
+.belowHeader .intro {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -221,28 +224,28 @@ h1 {
   background-repeat: no-repeat;
   height: 80vh;
 }
-.intro h2 {
+.belowHeader .intro h2 {
   font-size: 3rem;
   padding-top: 3%;
   padding-bottom: 3%;
 }
 @media (max-width: 500px) {
-  .intro h2 {
+  .belowHeader .intro h2 {
     padding-top: 5%;
   }
 }
-.intro p {
+.belowHeader .intro p {
   padding-bottom: 5%;
   font-size: 1.4rem;
 }
 @media (max-width: 500px) {
-  .intro p {
+  .belowHeader .intro p {
     margin-left: 3%;
     margin-right: 3%;
     text-align: center;
   }
 }
-.intro img {
+.belowHeader .intro img {
   height: 33px;
   padding-top: 25px;
 }
@@ -259,7 +262,7 @@ h1 {
   }
 }
 .about-content .firstRow div {
-  background-color: #264D59;
+  background-color: #286F66;
   width: 300px;
 }
 .about-content .firstRow .ami {
@@ -326,7 +329,7 @@ h1 {
 }
 .about-content .secondRow div {
   width: 300px;
-  background-color: #264D59;
+  background-color: #286F66;
 }
 .about-content .secondRow .damon {
   border: 10px solid black;
@@ -392,7 +395,7 @@ h1 {
 }
 .about-content .thirdRow div {
   width: 300px;
-  background-color: #264D59;
+  background-color: #286F66;
 }
 .about-content .thirdRow .sandra {
   border: 10px solid black;
@@ -458,7 +461,7 @@ h1 {
 }
 .about-content .fourthRow div {
   width: 300px;
-  background-color: #264D59;
+  background-color: #286F66;
 }
 .about-content .fourthRow .jennie {
   border: 10px solid black;
