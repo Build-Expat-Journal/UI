@@ -100,15 +100,35 @@ header .headerAndNav {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 100%;
+}
+header .headerAndNav h1 {
+  font-size: 3rem;
+  color: #F5F5F5;
+  text-align: center;
 }
 header .headerAndNav nav {
+  display: flex;
   justify-content: space-between;
+  align-items: center;
+  color: #F5F5F5;
+  width: 100%;
 }
 @media (max-width: 500px) {
   header .headerAndNav nav {
     display: flex;
     flex-direction: column;
   }
+}
+header .headerAndNav nav #homeNav {
+  padding-left: 10%;
+  font-size: 2rem;
+  color: #F5F5F5;
+}
+header .headerAndNav nav #aboutNav {
+  padding-right: 10%;
+  font-size: 2rem;
+  color: #F5F5F5;
 }
 header .noteBookLogoRight {
   padding-right: 5%;
