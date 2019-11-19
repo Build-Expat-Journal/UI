@@ -1,0 +1,110 @@
+@font-face {
+  font-family: 'Sue Ellen Francisco';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Sue Ellen Francisco '), local('SueEllenFrancisco'), url(https://fonts.gstatic.com/s/sueellenfrancisco/v10/wXK3E20CsoJ9j1DDkjHcQ5ZL8xRaxru9no1P3g.ttf) format('truetype');
+}
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  width: 100%;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  height: 10vh;
+}
+header .logo {
+  margin: 10%;
+}
+header .logo img {
+  width: 30%;
+}
+header nav {
+  margin-bottom: 0;
+  width: 60%;
+  display: flex;
+  justify-content: flex-end;
+}
+header nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3em;
+  padding: 1%;
+  margin-right: 7%;
+  margin-top: 1%;
+  font-family: 'Roboto Mono', monospace;
+}
+.bg {
+  background-image: url('../images/bg1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bg main {
+  display: flex;
+  align-items: center;
+}
+.bg main .header {
+  height: 90vh;
+  width: 70%;
+}
+.bg main .header h1 {
+  color: white;
+  font-family: 'Sue Ellen Francisco', cursive;
+  font-size: 150px;
+  margin-top: 25%;
+  padding-left: 20%;
+  font-weight: lighter;
+  line-height: 1.1;
+  padding-right: 7%;
+}
+.bg main .header h1 span {
+  margin-left: 32%;
+}
+.bg main .btns {
+  width: 50%;
+  margin-left: 35%;
+}
+.bg main .btns button {
+  background-color: #4CAF50;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+#about {
+  background: url(../images/bg2.png);
+  height: 95vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+#about .first {
+  padding: 5% 0 0 5%;
+}
+#about .first h2 {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: 70px;
+  font-weight: lighter;
+  text-align: center;
+  font-family: 'Sue Ellen Francisco', cursive;
+}
+#about .first p {
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+  font-size: 20px;
+  width: 50%;
+}
