@@ -88,10 +88,15 @@ header nav a {
 }
 .bg2 {
   background: url(../images/bg2.png);
-  height: 150vh;
   background-size: cover;
   background-repeat: no-repeat;
   padding: 0;
+}
+@media (max-width: 900px) {
+  .bg2 {
+    background-size: auto;
+    background-repeat: repeat;
+  }
 }
 .bg2 h1 {
   margin: 5%;
