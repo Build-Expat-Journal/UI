@@ -615,7 +615,7 @@ header nav #aboutNav {
   align-items: center;
   background: #264D59;
 }
-@media (max-width: 500px) {
+@media (max-width: 450px) {
   .topPhotos {
     display: none;
   }
@@ -661,9 +661,4 @@ header nav #aboutNav {
   padding-right: 0.5%;
   padding-top: 0.5%;
   border: 1px solid #999;
-}
-@media (max-width: 500px) {
-  .topPhotos .images-middle img {
-    height: 20%;
-  }
 }
