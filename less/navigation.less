@@ -1,10 +1,15 @@
 header{
     // background: @chalk;
-    height: 10vh;
+    height: 15vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: @darkGreen;
+    @media @phone{
+        flex-direction: column;
+        text-align: center;
+    }
+    
     // align-items: center;
     // .cameraLogoLeft{
     //     padding-left: 5%;
@@ -23,6 +28,11 @@ header{
             // width: 100%;
             padding-left: 5%;
             width: 50%;
+            @media @phone{
+                font-size: 2rem;
+                padding: 0%
+            }
+            
 
 
         }
@@ -33,16 +43,26 @@ header{
             color: @darkGreen;
             width: 40%;
             padding-right: 5%;
-            
             @media @phone{
-                display: flex;
-                flex-direction: column;
+                width: 70%;
+                padding-bottom: 2.5%;
             }
+            
+            
+            // @media @phone{
+            //     display: flex;
+            //     flex-direction: column;
+            // }
             #homeNav{
                 // padding-left: 10%;
                 font-size: 1.5rem;
                 color: @chalk;
                 width: 25%;
+                @media @phone{
+                    font-size: 1.1rem;
+                    
+                }
+                
                 
             }
             #aboutNav{
@@ -50,6 +70,10 @@ header{
                 font-size: 1.5rem;
                 color: @chalk;
                 width: 25%;
+                @media @phone{
+                    font-size: 1.1rem;
+                }
+                
             }
         }
     // }

@@ -87,17 +87,29 @@ video {
   vertical-align: baseline;
 }
 header {
-  height: 10vh;
+  height: 15vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #264D59;
+}
+@media (max-width: 500px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
 }
 header h1 {
   font-size: 3rem;
   color: #F5F5F5;
   padding-left: 5%;
   width: 50%;
+}
+@media (max-width: 500px) {
+  header h1 {
+    font-size: 2rem;
+    padding: 0%;
+  }
 }
 header nav {
   display: flex;
@@ -109,8 +121,8 @@ header nav {
 }
 @media (max-width: 500px) {
   header nav {
-    display: flex;
-    flex-direction: column;
+    width: 70%;
+    padding-bottom: 2.5%;
   }
 }
 header nav #homeNav {
@@ -118,10 +130,20 @@ header nav #homeNav {
   color: #F5F5F5;
   width: 25%;
 }
+@media (max-width: 500px) {
+  header nav #homeNav {
+    font-size: 1.1rem;
+  }
+}
 header nav #aboutNav {
   font-size: 1.5rem;
   color: #F5F5F5;
   width: 25%;
+}
+@media (max-width: 500px) {
+  header nav #aboutNav {
+    font-size: 1.1rem;
+  }
 }
 .content {
   height: 90vh;
@@ -131,6 +153,13 @@ header nav #aboutNav {
   display: flex;
   justify-content: center;
 }
+@media (max-width: 500px) {
+  .content {
+    height: 85vh;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .content .placeHolder1 {
   margin-top: 15%;
   width: 30%;
@@ -139,11 +168,24 @@ header nav #aboutNav {
   align-items: center;
   padding-right: 2%;
 }
+@media (max-width: 500px) {
+  .content .placeHolder1 {
+    width: 80%;
+    margin-top: 0%;
+    padding-bottom: 10%;
+    padding-right: 0%;
+  }
+}
 .content .placeHolder1 h2 {
   font-size: 2.5rem;
   text-align: center;
   color: #F5F5F5;
   padding-bottom: 4%;
+}
+@media (max-width: 500px) {
+  .content .placeHolder1 h2 {
+    font-size: 1.8rem;
+  }
 }
 .content .placeHolder1 p {
   text-align: center;
@@ -156,18 +198,35 @@ header nav #aboutNav {
   flex-direction: column;
   align-items: center;
 }
+@media (max-width: 500px) {
+  .content .signUp {
+    width: 80%;
+    margin: 0%;
+    padding-bottom: 10%;
+  }
+}
 .content .signUp h2 {
   font-size: 2.5rem;
   text-align: center;
   color: #F5F5F5;
   padding-bottom: 4%;
 }
+@media (max-width: 500px) {
+  .content .signUp h2 {
+    font-size: 1.8rem;
+  }
+}
 .content .signUp p {
   text-align: center;
   color: #F5F5F5;
+  padding-bottom: 8%;
 }
 .content .signUp button {
   border: 1px solid black;
+  font-size: 1.1rem;
+  background: #F5F5F5;
+  color: #286F66;
+  width: 100%;
 }
 .content .placeHolder2 {
   margin-top: 15%;
@@ -177,11 +236,23 @@ header nav #aboutNav {
   align-items: center;
   padding-left: 2%;
 }
+@media (max-width: 500px) {
+  .content .placeHolder2 {
+    width: 80%;
+    margin: 0%;
+    padding-left: 0%;
+  }
+}
 .content .placeHolder2 h2 {
   font-size: 2.5rem;
   text-align: center;
   color: #F5F5F5;
   padding-bottom: 4%;
+}
+@media (max-width: 500px) {
+  .content .placeHolder2 h2 {
+    font-size: 1.8rem;
+  }
 }
 .content .placeHolder2 p {
   text-align: center;
