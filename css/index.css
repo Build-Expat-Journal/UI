@@ -263,6 +263,11 @@ header nav #aboutNav {
   align-items: center;
   background: #286F66;
 }
+@media (max-width: 500px) {
+  .aboutHeader {
+    flex-direction: column;
+  }
+}
 .aboutHeader h1 {
   font-size: 3rem;
   color: #F5F5F5;
@@ -271,15 +276,30 @@ header nav #aboutNav {
 }
 @media (max-width: 500px) {
   .aboutHeader h1 {
-    padding-left: 0%;
+    font-size: 2rem;
+    width: 100%;
   }
 }
 .aboutHeader nav {
   width: 30%;
 }
+@media (max-width: 500px) {
+  .aboutHeader nav {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    padding-right: 0%;
+    padding-bottom: 1%;
+  }
+}
 .aboutHeader nav a {
   color: #F5F5F5;
   font-size: 1.4rem;
+}
+@media (max-width: 500px) {
+  .aboutHeader nav a {
+    font-size: 1.2rem;
+  }
 }
 .belowHeader {
   background: #264D59;
@@ -560,4 +580,51 @@ header nav #aboutNav {
 .about-content .fourthRow .jennie p {
   padding-bottom: 8%;
   font-size: 1.4rem;
+}
+.topPhotos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.topPhotos h1 {
+  font-size: 3rem;
+  margin-bottom: 5%;
+  color: #F5F5F5;
+  text-align: center;
+}
+.topPhotos p {
+  font-size: 1.5rem;
+  margin-bottom: 5%;
+  color: #F5F5F5;
+  text-align: center;
+}
+.topPhotos .images-top {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 5%;
+}
+.topPhotos .images-top img {
+  width: 20%;
+  height: auto;
+  background: #F5F5F5;
+  padding-bottom: 3%;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+  padding-top: 0.5%;
+  border: 1px solid #999;
+}
+.topPhotos .images-middle {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 5%;
+}
+.topPhotos .images-middle img {
+  width: 20%;
+  height: auto;
+  background: #F5F5F5;
+  padding-bottom: 3%;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+  padding-top: 0.5%;
+  border: 1px solid #999;
 }
