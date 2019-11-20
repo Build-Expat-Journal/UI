@@ -657,3 +657,8 @@ header nav #aboutNav {
   padding-top: 0.5%;
   border: 1px solid #999;
 }
+@media (max-width: 500px) {
+  .topPhotos .images-middle img {
+    height: 20%;
+  }
+}
