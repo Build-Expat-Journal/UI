@@ -340,6 +340,9 @@ header nav #aboutNav {
   height: 33px;
   padding-top: 25px;
 }
+.about-content {
+  background: #264D59;
+}
 .about-content .firstRow {
   display: flex;
   justify-content: space-between;
@@ -358,6 +361,7 @@ header nav #aboutNav {
 }
 .about-content .firstRow .ami {
   border: 10px solid black;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -373,17 +377,21 @@ header nav #aboutNav {
 .about-content .firstRow .ami h3 {
   font-size: 2.5rem;
   padding-bottom: 5%;
+  color: #F5F5F5;
 }
 .about-content .firstRow .ami img {
   height: 100px;
   padding-bottom: 5%;
+  color: #F5F5F5;
 }
 .about-content .firstRow .ami p {
   padding-bottom: 8%;
   font-size: 1.4rem;
+  color: #F5F5F5;
 }
 .about-content .firstRow .lorenzo {
   border: 10px solid black;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -398,14 +406,17 @@ header nav #aboutNav {
 .about-content .firstRow .lorenzo h3 {
   font-size: 2.5rem;
   padding-bottom: 5%;
+  color: #F5F5F5;
 }
 .about-content .firstRow .lorenzo img {
   height: 100px;
   padding-bottom: 5%;
+  color: #F5F5F5;
 }
 .about-content .firstRow .lorenzo p {
   padding-bottom: 8%;
   font-size: 1.4rem;
+  color: #F5F5F5;
 }
 .about-content .secondRow {
   display: flex;
@@ -429,6 +440,7 @@ header nav #aboutNav {
   align-items: center;
   padding: 3%;
   margin-left: 5%;
+  border-radius: 10px;
 }
 @media (max-width: 500px) {
   .about-content .secondRow .damon {
@@ -439,14 +451,17 @@ header nav #aboutNav {
 .about-content .secondRow .damon h3 {
   font-size: 2.5rem;
   padding-bottom: 5%;
+  color: #F5F5F5;
 }
 .about-content .secondRow .damon img {
   height: 100px;
   padding-bottom: 5%;
+  color: #F5F5F5;
 }
 .about-content .secondRow .damon p {
   padding-bottom: 8%;
   font-size: 1.4rem;
+  color: #F5F5F5;
 }
 .about-content .secondRow .ana {
   border: 10px solid black;
@@ -455,6 +470,7 @@ header nav #aboutNav {
   align-items: center;
   padding: 3%;
   margin-right: 5%;
+  border-radius: 10px;
 }
 @media (max-width: 500px) {
   .about-content .secondRow .ana {
@@ -464,14 +480,17 @@ header nav #aboutNav {
 .about-content .secondRow .ana h3 {
   font-size: 2.5rem;
   padding-bottom: 5%;
+  color: #F5F5F5;
 }
 .about-content .secondRow .ana img {
   height: 100px;
   padding-bottom: 5%;
+  color: #F5F5F5;
 }
 .about-content .secondRow .ana p {
   padding-bottom: 8%;
   font-size: 1.4rem;
+  color: #F5F5F5;
 }
 .about-content .thirdRow {
   display: flex;
@@ -495,6 +514,7 @@ header nav #aboutNav {
   align-items: center;
   padding: 3%;
   margin-left: 5%;
+  border-radius: 10px;
 }
 @media (max-width: 500px) {
   .about-content .thirdRow .sandra {
@@ -505,6 +525,7 @@ header nav #aboutNav {
 .about-content .thirdRow .sandra h3 {
   font-size: 2.5rem;
   padding-bottom: 5%;
+  color: #F5F5F5;
 }
 .about-content .thirdRow .sandra img {
   height: 100px;
@@ -513,6 +534,7 @@ header nav #aboutNav {
 .about-content .thirdRow .sandra p {
   padding-bottom: 8%;
   font-size: 1.4rem;
+  color: #F5F5F5;
 }
 .about-content .thirdRow .caitlyn {
   border: 10px solid black;
@@ -521,6 +543,7 @@ header nav #aboutNav {
   align-items: center;
   padding: 3%;
   margin-right: 5%;
+  border-radius: 10px;
 }
 @media (max-width: 500px) {
   .about-content .thirdRow .caitlyn {
@@ -530,6 +553,7 @@ header nav #aboutNav {
 .about-content .thirdRow .caitlyn h3 {
   font-size: 2.5rem;
   padding-bottom: 5%;
+  color: #F5F5F5;
 }
 .about-content .thirdRow .caitlyn img {
   height: 100px;
@@ -538,6 +562,7 @@ header nav #aboutNav {
 .about-content .thirdRow .caitlyn p {
   padding-bottom: 8%;
   font-size: 1.4rem;
+  color: #F5F5F5;
 }
 .about-content .fourthRow {
   display: flex;
@@ -561,6 +586,7 @@ header nav #aboutNav {
   align-items: center;
   padding: 3%;
   margin-left: 5%;
+  border-radius: 10px;
 }
 @media (max-width: 500px) {
   .about-content .fourthRow .jennie {
@@ -571,6 +597,7 @@ header nav #aboutNav {
 .about-content .fourthRow .jennie h3 {
   font-size: 2.5rem;
   padding-bottom: 5%;
+  color: #F5F5F5;
 }
 .about-content .fourthRow .jennie img {
   height: 100px;
@@ -580,11 +607,13 @@ header nav #aboutNav {
 .about-content .fourthRow .jennie p {
   padding-bottom: 8%;
   font-size: 1.4rem;
+  color: #F5F5F5;
 }
 .topPhotos {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: #264D59;
 }
 .topPhotos h1 {
   font-size: 3rem;
