@@ -213,8 +213,9 @@ header nav #aboutNav {
   .content .placeHolder1 {
     width: 80%;
     margin-top: 0%;
-    padding-bottom: 10%;
+    padding-bottom: 0%;
     padding-right: 0%;
+    margin-bottom: 5%;
   }
 }
 @media (max-width: 450px) {
@@ -231,7 +232,7 @@ header nav #aboutNav {
 }
 @media (max-width: 500px) {
   .content .placeHolder1 h2 {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
   }
 }
 .content .placeHolder1 p {
@@ -249,8 +250,9 @@ header nav #aboutNav {
 @media (max-width: 500px) {
   .content .signUp {
     width: 80%;
-    margin: 0%;
-    padding-bottom: 10%;
+    margin-top: 0%;
+    padding-bottom: 0%;
+    margin-bottom: 5%;
   }
 }
 @media (max-width: 450px) {
@@ -267,7 +269,7 @@ header nav #aboutNav {
 }
 @media (max-width: 500px) {
   .content .signUp h2 {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
   }
 }
 .content .signUp p {
@@ -275,6 +277,11 @@ header nav #aboutNav {
   color: #F5F5F5;
   padding-bottom: 8%;
   font-family: 'Righteous', cursive;
+}
+@media (max-width: 500px) {
+  .content .signUp p {
+    padding-bottom: 4%;
+  }
 }
 .content .signUp button {
   border: 1px solid black;
@@ -298,7 +305,7 @@ header nav #aboutNav {
 @media (max-width: 500px) {
   .content .placeHolder2 {
     width: 80%;
-    margin: 0%;
+    margin-top: 0%;
     padding-left: 0%;
   }
 }
@@ -311,7 +318,7 @@ header nav #aboutNav {
 }
 @media (max-width: 500px) {
   .content .placeHolder2 h2 {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
   }
 }
 .content .placeHolder2 p {
