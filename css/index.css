@@ -1,3 +1,31 @@
+@font-face {
+  font-family: 'Amatic SC';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Amatic SC Regular'), local('AmaticSC-Regular'), url(https://fonts.gstatic.com/s/amaticsc/v13/TUZyzwprpvBS1izr_vOECuSa.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Pacifico Regular'), local('Pacifico-Regular'), url(https://fonts.gstatic.com/s/pacifico/v16/FwZY7-Qmy14u9lezJ-6H6Mw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Righteous';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Righteous'), local('Righteous-Regular'), url(https://fonts.gstatic.com/s/righteous/v8/1cXxaUPXBpj2rGoU7C9WiHGA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Shadows Into Light';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Shadows Into Light'), local('ShadowsIntoLight'), url(https://fonts.gstatic.com/s/shadowsintolight/v9/UqyNK9UOIntux_czAvDQx_ZcHqZXBNQzdcD8.ttf) format('truetype');
+}
 html,
 body,
 div,
@@ -104,6 +132,7 @@ header h1 {
   color: #F5F5F5;
   padding-left: 5%;
   width: 50%;
+  font-family: 'Pacifico', cursive;
 }
 @media (max-width: 500px) {
   header h1 {
@@ -129,6 +158,7 @@ header nav #homeNav {
   font-size: 1.5rem;
   color: #F5F5F5;
   width: 25%;
+  font-family: 'Pacifico', cursive;
 }
 @media (max-width: 500px) {
   header nav #homeNav {
@@ -139,6 +169,7 @@ header nav #aboutNav {
   font-size: 1.5rem;
   color: #F5F5F5;
   width: 25%;
+  font-family: 'Pacifico', cursive;
 }
 @media (max-width: 500px) {
   header nav #aboutNav {
@@ -181,6 +212,7 @@ header nav #aboutNav {
   text-align: center;
   color: #F5F5F5;
   padding-bottom: 4%;
+  font-family: 'Righteous', cursive;
 }
 @media (max-width: 500px) {
   .content .placeHolder1 h2 {
@@ -190,6 +222,7 @@ header nav #aboutNav {
 .content .placeHolder1 p {
   text-align: center;
   color: #F5F5F5;
+  font-family: 'Righteous', cursive;
 }
 .content .signUp {
   margin-top: 5%;
@@ -210,6 +243,7 @@ header nav #aboutNav {
   text-align: center;
   color: #F5F5F5;
   padding-bottom: 4%;
+  font-family: 'Righteous', cursive;
 }
 @media (max-width: 500px) {
   .content .signUp h2 {
@@ -220,6 +254,7 @@ header nav #aboutNav {
   text-align: center;
   color: #F5F5F5;
   padding-bottom: 8%;
+  font-family: 'Righteous', cursive;
 }
 .content .signUp button {
   border: 1px solid black;
@@ -227,6 +262,10 @@ header nav #aboutNav {
   background: #F5F5F5;
   color: #286F66;
   width: 100%;
+}
+.content .signUp button:hover {
+  background-color: #286F66;
+  color: #F5F5F5;
 }
 .content .placeHolder2 {
   margin-top: 15%;
@@ -248,6 +287,7 @@ header nav #aboutNav {
   text-align: center;
   color: #F5F5F5;
   padding-bottom: 4%;
+  font-family: 'Righteous', cursive;
 }
 @media (max-width: 500px) {
   .content .placeHolder2 h2 {
@@ -257,6 +297,7 @@ header nav #aboutNav {
 .content .placeHolder2 p {
   text-align: center;
   color: #F5F5F5;
+  font-family: 'Righteous', cursive;
 }
 .aboutHeader {
   display: flex;
@@ -273,6 +314,7 @@ header nav #aboutNav {
   color: #F5F5F5;
   padding-left: 5%;
   width: 50%;
+  font-family: 'Pacifico', cursive;
 }
 @media (max-width: 500px) {
   .aboutHeader h1 {
@@ -295,50 +337,12 @@ header nav #aboutNav {
 .aboutHeader nav a {
   color: #F5F5F5;
   font-size: 1.4rem;
+  font-family: 'Pacifico', cursive;
 }
 @media (max-width: 500px) {
   .aboutHeader nav a {
     font-size: 1.2rem;
   }
-}
-.belowHeader {
-  background: #264D59;
-}
-.belowHeader .intro {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-bottom: 5%;
-  justify-content: center;
-  background-image: url(../images/aboutBckg2.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 80vh;
-}
-.belowHeader .intro h2 {
-  font-size: 3rem;
-  padding-top: 3%;
-  padding-bottom: 3%;
-}
-@media (max-width: 500px) {
-  .belowHeader .intro h2 {
-    padding-top: 5%;
-  }
-}
-.belowHeader .intro p {
-  padding-bottom: 5%;
-  font-size: 1.4rem;
-}
-@media (max-width: 500px) {
-  .belowHeader .intro p {
-    margin-left: 3%;
-    margin-right: 3%;
-    text-align: center;
-  }
-}
-.belowHeader .intro img {
-  height: 33px;
-  padding-top: 25px;
 }
 .about-content {
   background: #264D59;
@@ -378,6 +382,7 @@ header nav #aboutNav {
   font-size: 2.5rem;
   padding-bottom: 5%;
   color: #F5F5F5;
+  font-family: 'Amatic SC', cursive;
 }
 .about-content .firstRow .ami img {
   height: 100px;
@@ -388,6 +393,7 @@ header nav #aboutNav {
   padding-bottom: 8%;
   font-size: 1.4rem;
   color: #F5F5F5;
+  font-family: 'Amatic SC', cursive;
 }
 .about-content .firstRow .lorenzo {
   border: 10px solid black;
@@ -407,6 +413,7 @@ header nav #aboutNav {
   font-size: 2.5rem;
   padding-bottom: 5%;
   color: #F5F5F5;
+  font-family: 'Amatic SC', cursive;
 }
 .about-content .firstRow .lorenzo img {
   height: 100px;
@@ -417,6 +424,8 @@ header nav #aboutNav {
   padding-bottom: 8%;
   font-size: 1.4rem;
   color: #F5F5F5;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
 }
 .about-content .secondRow {
   display: flex;
@@ -452,6 +461,7 @@ header nav #aboutNav {
   font-size: 2.5rem;
   padding-bottom: 5%;
   color: #F5F5F5;
+  font-family: 'Amatic SC', cursive;
 }
 .about-content .secondRow .damon img {
   height: 100px;
@@ -462,6 +472,8 @@ header nav #aboutNav {
   padding-bottom: 8%;
   font-size: 1.4rem;
   color: #F5F5F5;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
 }
 .about-content .secondRow .ana {
   border: 10px solid black;
@@ -481,6 +493,7 @@ header nav #aboutNav {
   font-size: 2.5rem;
   padding-bottom: 5%;
   color: #F5F5F5;
+  font-family: 'Amatic SC', cursive;
 }
 .about-content .secondRow .ana img {
   height: 100px;
@@ -491,6 +504,8 @@ header nav #aboutNav {
   padding-bottom: 8%;
   font-size: 1.4rem;
   color: #F5F5F5;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
 }
 .about-content .thirdRow {
   display: flex;
@@ -526,6 +541,7 @@ header nav #aboutNav {
   font-size: 2.5rem;
   padding-bottom: 5%;
   color: #F5F5F5;
+  font-family: 'Amatic SC', cursive;
 }
 .about-content .thirdRow .sandra img {
   height: 100px;
@@ -535,6 +551,8 @@ header nav #aboutNav {
   padding-bottom: 8%;
   font-size: 1.4rem;
   color: #F5F5F5;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
 }
 .about-content .thirdRow .caitlyn {
   border: 10px solid black;
@@ -554,6 +572,7 @@ header nav #aboutNav {
   font-size: 2.5rem;
   padding-bottom: 5%;
   color: #F5F5F5;
+  font-family: 'Amatic SC', cursive;
 }
 .about-content .thirdRow .caitlyn img {
   height: 100px;
@@ -563,6 +582,8 @@ header nav #aboutNav {
   padding-bottom: 8%;
   font-size: 1.4rem;
   color: #F5F5F5;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
 }
 .about-content .fourthRow {
   display: flex;
@@ -598,6 +619,7 @@ header nav #aboutNav {
   font-size: 2.5rem;
   padding-bottom: 5%;
   color: #F5F5F5;
+  font-family: 'Amatic SC', cursive;
 }
 .about-content .fourthRow .jennie img {
   height: 100px;
@@ -608,6 +630,8 @@ header nav #aboutNav {
   padding-bottom: 8%;
   font-size: 1.4rem;
   color: #F5F5F5;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
 }
 .topPhotos {
   display: flex;
@@ -625,12 +649,14 @@ header nav #aboutNav {
   margin-bottom: 5%;
   color: #F5F5F5;
   text-align: center;
+  font-family: 'Righteous', cursive;
 }
 .topPhotos p {
   font-size: 1.5rem;
   margin-bottom: 5%;
   color: #F5F5F5;
   text-align: center;
+  font-family: 'Righteous', cursive;
 }
 .topPhotos .images-top {
   display: flex;
