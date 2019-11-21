@@ -5,9 +5,24 @@
 main{
     display: flex;
     align-items: center;
+
+    @media @biggerPhone{
+        flex-direction: column;
+
+    }
+
     .header{
         height: 90vh;
-        width: 70%;
+        width: 80%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+
+        @media @tablet{
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+
         h1{
             color: white;
             font-family: 'Sue Ellen Francisco', cursive;
@@ -18,9 +33,19 @@ main{
 line-height: 1.1;            
             padding-right:7%;
         
+            @media @biggerPhone{
+                font-size: 120px;
+            }
+            @media @phone{
+                font-size: 100px;
+            }
             span{
-                margin-left: 32%;
+                margin-left: 42%;
 
+                @media @tablet{
+                    margin-left: 52%;
+
+                }
             }
         }
 
@@ -29,10 +54,19 @@ line-height: 1.1;
     }
     .btns{
         width: 50%;
-        margin-left:35%;
+        margin-left:25%;
+
 
         button{
-        .button()
+
+        .button();
+            
+        @media @tablet{
+            font-size:1.2em;
+            width: 70%;
+        }
+
+        
         }
     }
 }

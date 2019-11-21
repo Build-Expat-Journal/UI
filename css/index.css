@@ -14,6 +14,14 @@ body {
   padding: 0;
   max-width: 100%;
 }
+.footer {
+  height: 5vh;
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  font-size: 20px;
+  margin: 0;
+}
 header {
   display: flex;
   justify-content: space-between;
@@ -51,9 +59,23 @@ header nav a {
   display: flex;
   align-items: center;
 }
+@media (max-width: 780px) {
+  .bg main {
+    flex-direction: column;
+  }
+}
 .bg main .header {
   height: 90vh;
-  width: 70%;
+  width: 80%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+@media (max-width: 1100px) {
+  .bg main .header {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
 }
 .bg main .header h1 {
   color: white;
@@ -65,12 +87,27 @@ header nav a {
   line-height: 1.1;
   padding-right: 7%;
 }
+@media (max-width: 780px) {
+  .bg main .header h1 {
+    font-size: 120px;
+  }
+}
+@media (max-width: 500px) {
+  .bg main .header h1 {
+    font-size: 100px;
+  }
+}
 .bg main .header h1 span {
-  margin-left: 32%;
+  margin-left: 42%;
+}
+@media (max-width: 1100px) {
+  .bg main .header h1 span {
+    margin-left: 52%;
+  }
 }
 .bg main .btns {
   width: 50%;
-  margin-left: 35%;
+  margin-left: 25%;
 }
 .bg main .btns button {
   background-color: #286F66;
@@ -85,6 +122,12 @@ header nav a {
   font-size: 25px;
   margin: 4px 2px;
   cursor: pointer;
+}
+@media (max-width: 1100px) {
+  .bg main .btns button {
+    font-size: 1.2em;
+    width: 70%;
+  }
 }
 .bg2 {
   background: url(../images/bg2.png);
@@ -233,14 +276,4 @@ header nav a {
   width: 50%;
   margin-left: 25%;
   margin-top: 5%;
-}
-#about footer {
-  height: 5vh;
-  background-color: #3C515D;
-  margin-top: 0;
-  color: white;
-  font-family: 'Roboto Mono', monospace;
-  text-align: center;
-  font-size: 20px;
-  vertical-align: bottom;
 }
