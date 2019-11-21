@@ -347,6 +347,7 @@ header nav #aboutNav {
   .aboutHeader h1 {
     font-size: 2rem;
     width: 100%;
+    padding-left: 0%;
   }
 }
 .aboutHeader nav {
