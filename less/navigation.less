@@ -1,0 +1,92 @@
+header{
+    // background: @chalk;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: @darkGreen;
+    @media @phone{
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    // align-items: center;
+    // .cameraLogoLeft{
+    //     padding-left: 5%;
+    // }
+    // .headerAndNav{
+    //     display: flex;
+    //     flex-direction: column;
+    //     justify-content: center;
+    //     width: 45%;
+        
+        
+        h1{
+            font-size: 3rem;
+            color: @chalk;
+            // text-align: center;
+            // width: 100%;
+            padding-left: 5%;
+            width: 50%;
+            font-family: @cursiveFont;
+            @media @phone{
+                font-size: 2rem;
+                padding: 0%
+            }
+            @media @iphone{
+                font-size: 1.5rem;
+            }
+            
+
+
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: @darkGreen;
+            width: 40%;
+            padding-right: 5%;
+            @media @phone{
+                width: 70%;
+                padding-bottom: 2.5%;
+            }
+            
+            
+            // @media @phone{
+            //     display: flex;
+            //     flex-direction: column;
+            // }
+            #homeNav{
+                // padding-left: 10%;
+                font-size: 1.5rem;
+                color: @chalk;
+                width: 25%;
+                font-family: @cursiveFont;
+                @media @phone{
+                    font-size: 1.1rem;
+                    
+                }
+                
+                
+            }
+            #aboutNav{
+                // padding-right: 10%;
+                font-size: 1.5rem;
+                color: @chalk;
+                width: 25%;
+                font-family: @cursiveFont;
+                @media @phone{
+                    font-size: 1.1rem;
+                }
+                @media @iphone{
+                    width: 30%;
+                }
+                
+            }
+        }
+    // }
+    // .noteBookLogoRight{
+    //     padding-right: 5%;
+    // }
+}
