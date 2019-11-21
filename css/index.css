@@ -92,14 +92,14 @@ header nav a {
   background-repeat: no-repeat;
   padding: 0;
 }
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
   .bg2 {
     background-size: auto;
     background-repeat: repeat;
   }
 }
 .bg2 h1 {
-  margin: 5%;
+  margin-top: 10%;
   text-align: center;
   padding: 0;
   color: white;
@@ -108,18 +108,38 @@ header nav a {
   font-weight: lighter;
   line-height: 0.1;
 }
+@media (max-width: 1100px) {
+  .bg2 h1 {
+    font-size: 90px;
+  }
+}
+@media (max-width: 780px) {
+  .bg2 h1 {
+    font-size: 80px;
+  }
+}
 .bg2 .container {
   display: flex;
   flex-direction: row;
-  border: 5px solid orange;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
 }
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
   .bg2 .container {
     flex-wrap: wrap;
     flex-direction: column;
+    margin-top: 15%;
+  }
+}
+@media (max-width: 780px) {
+  .bg2 .container {
+    margin-top: 20%;
+  }
+}
+@media (max-width: 500px) {
+  .bg2 .container {
+    margin-top: 25%;
   }
 }
 .bg2 .container .card {
@@ -131,31 +151,53 @@ header nav a {
   justify-content: center;
   flex-wrap: wrap;
 }
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
   .bg2 .container .card {
     flex-direction: column;
     width: 30%;
   }
 }
 .bg2 .container .card .image {
-  border: 3px solid red;
   display: flex;
 }
 .bg2 .container .card .image img {
   margin: 0 auto;
   width: 90%;
+  margin-top: 5%;
+}
+@media (max-width: 1100px) {
+  .bg2 .container .card .image img {
+    margin-top: 10% ;
+  }
 }
 .bg2 .container .card h3 {
   color: #214049;
   font-family: 'Roboto Mono', monospace;
-  border: 2px solid #214049;
   text-align: center;
   line-height: 1.5;
+  padding: 0 2%;
+  width: 100%;
+}
+@media (max-width: 1100px) {
+  .bg2 .container .card h3 {
+    font-size: 1.5em;
+  }
+}
+@media (max-width: 780px) {
+  .bg2 .container .card h3 {
+    font-size: 1.1em;
+  }
 }
 .bg2 .container .card a {
   margin-bottom: 5%;
   padding: 0;
   font-size: 0.5em;
+  text-decoration: none;
+  line-height: 1.5;
+  font-size: 1em;
+  color: #214049;
+  cursor: pointer;
+  font-family: 'Roboto Mono', monospace;
 }
 .bg2 .container .card a .github {
   width: 30%;
