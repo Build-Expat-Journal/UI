@@ -1,0 +1,125 @@
+.bg2 {
+    background: url(../images/bg2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+
+    @media @tablet {
+        background-size: auto;
+        background-repeat: repeat;
+
+
+    }
+
+    h1 {
+        margin-top: 10%;
+        text-align: center;
+        padding: 0;
+        color: @textColor;
+        font-family: @fontTitles;
+        font-size: 100px;
+        font-weight: lighter;
+        line-height: 0.1;
+
+        @media @tablet {
+            font-size: 90px;
+        }
+
+        @media @biggerPhone {
+            font-size: 80px;
+        }
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+
+
+        @media @tablet {
+            flex-wrap: wrap;
+            flex-direction: column;
+            margin-top: 15%;
+        }
+
+        @media @biggerPhone {
+            margin-top: 20%;
+
+        }
+
+        @media @phone {
+            margin-top: 25%;
+
+        }
+
+        .card {
+            background: @textColor;
+            width: 15%;
+            display: flex;
+            margin: 4%;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+
+            @media @tablet {
+                flex-direction: column;
+                width: 30%;
+            }
+
+            .image {
+                display: flex;
+
+                img {
+                    margin: 0 auto;
+                    width: 90%;
+                    margin-top: 5%;
+
+                    @media @tablet {
+                        margin-top: 10%;
+                    }
+                }
+            }
+
+            h3 {
+                color: @colorTitle;
+                font-family: @fontBody;
+                text-align: center;
+                line-height: 1.5;
+                padding: 0 2%;
+                width: 100%;
+
+                @media @tablet {
+                    font-size: 1.5em;
+
+                }
+
+                @media @biggerPhone {
+                    font-size: 1.1em;
+                }
+            }
+
+            a {
+                margin-bottom: 5%;
+                padding: 0;
+                font-size: 0.5em;
+                text-decoration: none;
+                line-height: 1.5;
+                font-size: 1em;
+                color: @colorTitle;
+                cursor: pointer;
+                font-family: @fontBody;
+
+
+
+                .github {
+                    width: 30%;
+                    margin-top: -5%;
+                    margin-left: 35%;
+                }
+            }
+
+        }
+    }
+}

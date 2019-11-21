@@ -1,0 +1,279 @@
+@font-face {
+  font-family: 'Sue Ellen Francisco';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Sue Ellen Francisco '), local('SueEllenFrancisco'), url(https://fonts.gstatic.com/s/sueellenfrancisco/v10/wXK3E20CsoJ9j1DDkjHcQ5ZL8xRaxru9no1P3g.ttf) format('truetype');
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+.footer {
+  height: 5vh;
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  font-size: 20px;
+  margin: 0;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+}
+header .logo {
+  margin-top: 5%;
+  margin-left: 5%;
+}
+header .logo img {
+  width: 30%;
+}
+header nav {
+  margin-bottom: 0;
+  width: 60%;
+  display: flex;
+  justify-content: flex-end;
+}
+header nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5em;
+  padding: 1%;
+  margin-right: 7%;
+  margin-top: 5%;
+  font-family: 'Roboto Mono', monospace;
+}
+.bg {
+  background-image: url('../images/bg1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bg main {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 780px) {
+  .bg main {
+    flex-direction: column;
+  }
+}
+.bg main .header {
+  height: 90vh;
+  width: 80%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+@media (max-width: 1100px) {
+  .bg main .header {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+.bg main .header h1 {
+  color: white;
+  font-family: 'Sue Ellen Francisco', cursive;
+  font-size: 150px;
+  margin-top: 25%;
+  padding-left: 20%;
+  font-weight: lighter;
+  line-height: 1.1;
+  padding-right: 7%;
+}
+@media (max-width: 780px) {
+  .bg main .header h1 {
+    font-size: 120px;
+  }
+}
+@media (max-width: 500px) {
+  .bg main .header h1 {
+    font-size: 100px;
+  }
+}
+.bg main .header h1 span {
+  margin-left: 52%;
+}
+@media (max-width: 1100px) {
+  .bg main .header h1 span {
+    margin-left: 52%;
+  }
+}
+.bg main .btns {
+  width: 50%;
+  margin-left: 25%;
+}
+.bg main .btns button {
+  background-color: #286F66;
+  border: 2px solid white;
+  width: 60%;
+  border-radius: 5px 20px 5px;
+  color: white;
+  padding: 15px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+@media (max-width: 1100px) {
+  .bg main .btns button {
+    font-size: 1.2em;
+    width: 70%;
+  }
+}
+#about {
+  background: url(../images/bg2.png);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0;
+}
+#about .first {
+  padding: 5% 0 0 5%;
+  margin-bottom: 142px;
+}
+#about .first h2 {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: 75px;
+  font-weight: lighter;
+  text-align: center;
+  font-family: 'Sue Ellen Francisco', cursive;
+  width: 100%;
+}
+#about .first p {
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 5%;
+}
+.bg2 {
+  background: url(../images/bg2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0;
+}
+@media (max-width: 1100px) {
+  .bg2 {
+    background-size: auto;
+    background-repeat: repeat;
+  }
+}
+.bg2 h1 {
+  margin-top: 10%;
+  text-align: center;
+  padding: 0;
+  color: white;
+  font-family: 'Sue Ellen Francisco', cursive;
+  font-size: 100px;
+  font-weight: lighter;
+  line-height: 0.1;
+}
+@media (max-width: 1100px) {
+  .bg2 h1 {
+    font-size: 90px;
+  }
+}
+@media (max-width: 780px) {
+  .bg2 h1 {
+    font-size: 80px;
+  }
+}
+.bg2 .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+@media (max-width: 1100px) {
+  .bg2 .container {
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 15%;
+  }
+}
+@media (max-width: 780px) {
+  .bg2 .container {
+    margin-top: 20%;
+  }
+}
+@media (max-width: 500px) {
+  .bg2 .container {
+    margin-top: 25%;
+  }
+}
+.bg2 .container .card {
+  background: white;
+  width: 15%;
+  display: flex;
+  margin: 4%;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+@media (max-width: 1100px) {
+  .bg2 .container .card {
+    flex-direction: column;
+    width: 30%;
+  }
+}
+.bg2 .container .card .image {
+  display: flex;
+}
+.bg2 .container .card .image img {
+  margin: 0 auto;
+  width: 90%;
+  margin-top: 5%;
+}
+@media (max-width: 1100px) {
+  .bg2 .container .card .image img {
+    margin-top: 10%;
+  }
+}
+.bg2 .container .card h3 {
+  color: #214049;
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  line-height: 1.5;
+  padding: 0 2%;
+  width: 100%;
+}
+@media (max-width: 1100px) {
+  .bg2 .container .card h3 {
+    font-size: 1.5em;
+  }
+}
+@media (max-width: 780px) {
+  .bg2 .container .card h3 {
+    font-size: 1.1em;
+  }
+}
+.bg2 .container .card a {
+  margin-bottom: 5%;
+  padding: 0;
+  font-size: 0.5em;
+  text-decoration: none;
+  line-height: 1.5;
+  font-size: 1em;
+  color: #214049;
+  cursor: pointer;
+  font-family: 'Roboto Mono', monospace;
+}
+.bg2 .container .card a .github {
+  width: 30%;
+  margin-top: -5%;
+  margin-left: 35%;
+}
