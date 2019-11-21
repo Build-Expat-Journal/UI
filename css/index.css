@@ -98,7 +98,7 @@ header nav a {
   }
 }
 .bg main .header h1 span {
-  margin-left: 42%;
+  margin-left: 52%;
 }
 @media (max-width: 1100px) {
   .bg main .header h1 span {
@@ -128,6 +128,36 @@ header nav a {
     font-size: 1.2em;
     width: 70%;
   }
+}
+#about {
+  background: url(../images/bg2.png);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0;
+}
+#about .first {
+  padding: 5% 0 0 5%;
+  margin-bottom: 142px;
+}
+#about .first h2 {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: 75px;
+  font-weight: lighter;
+  text-align: center;
+  font-family: 'Sue Ellen Francisco', cursive;
+  width: 100%;
+}
+#about .first p {
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 5%;
 }
 .bg2 {
   background: url(../images/bg2.png);
@@ -210,7 +240,7 @@ header nav a {
 }
 @media (max-width: 1100px) {
   .bg2 .container .card .image img {
-    margin-top: 10% ;
+    margin-top: 10%;
   }
 }
 .bg2 .container .card h3 {
@@ -246,34 +276,4 @@ header nav a {
   width: 30%;
   margin-top: -5%;
   margin-left: 35%;
-}
-#about {
-  background: url(../images/bg2.png);
-  height: 100vh;
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding: 0;
-}
-#about .first {
-  padding: 5% 0 0 5%;
-  margin-bottom: 142px;
-}
-#about .first h2 {
-  margin: 0;
-  padding: 0;
-  color: white;
-  font-size: 75px;
-  font-weight: lighter;
-  text-align: center;
-  font-family: 'Sue Ellen Francisco', cursive;
-  width: 100%;
-}
-#about .first p {
-  font-family: 'Roboto Mono', monospace;
-  color: white;
-  font-size: 25px;
-  text-align: center;
-  width: 50%;
-  margin-left: 25%;
-  margin-top: 5%;
 }
