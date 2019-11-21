@@ -702,11 +702,6 @@ footer h2 {
   align-items: center;
   background: #264D59;
 }
-@media (max-width: 450px) {
-  .topPhotos {
-    display: none;
-  }
-}
 .topPhotos h1 {
   font-size: 3rem;
   margin-bottom: 5%;
